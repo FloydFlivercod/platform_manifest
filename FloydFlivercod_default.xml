@@ -50,7 +50,6 @@
   <project path="frameworks/av" name="FloydFlivercod/frameworks_av" remote="FloydFlivercod" groups="pdk" />
   <project path="frameworks/base" name="FloydFlivercod/frameworks_base" remote="FloydFlivercod" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="FloydFlivercod/frameworks_native" remote="FloydFlivercod" groups="pdk" />
-  <project path="frameworks/opt/FloydFlivercodgear" name="FloydFlivercod/frameworks_opt_FloydFlivercodgear" remote="FloydFlivercod" />
   <project path="hardware/interfaces" name="FloydFlivercod/hardware_interfaces" groups="pdk" remote="FloydFlivercod" />
   <project path="packages/apps/FloydFlivercodExtras" name="FloydFlivercod/packages_apps_FloydFlivercodExtras" remote="FloydFlivercod" />
   <project path="vendor/FloydFlivercod" name="FloydFlivercod/vendor_FloydFlivercod" remote="FloydFlivercod" />
