@@ -22,14 +22,10 @@
   <remove-project name="build" />
   <remove-project name="build_soong" />
   <remove-project name="device_gzosp_sepolicy" />
-  <remove-project name="device_qcom_sepolicy" />
   <remove-project name="frameworks_av" />
   <remove-project name="frameworks_base" />
   <remove-project name="frameworks_native" />
   <remove-project name="hardware_interfaces" />
-  <remove-project name="packages_apps_Dialer" />
-  <remove-project name="packages_apps_Settings" />
-  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="system_core" />
   <remove-project name="vendor_gzosp" />
 
@@ -51,20 +47,14 @@
   </project>
   <project path="bionic" name="FloydFlivercod/bionic" remote="FloydFlivercod" />
   <project path="device/FloydFlivercod/sepolicy" name="FloydFlivercod/device_FloydFlivercod_sepolicy" remote="FloydFlivercod" />
-  <project path="device/qcom/sepolicy" name="FloydFlivercod/device_qcom_sepolicy" remote="FloydFlivercod" />
   <project path="device/qcom/sepolicy-legacy" name="FloydFlivercod/device_qcom_sepolicy-legacy" remote="FloydFlivercod" />
   <project path="frameworks/av" name="FloydFlivercod/frameworks_av" remote="FloydFlivercod" groups="pdk" />
   <project path="frameworks/base" name="FloydFlivercod/frameworks_base" remote="FloydFlivercod" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="FloydFlivercod/frameworks_native" remote="FloydFlivercod" groups="pdk" />
   <project path="frameworks/opt/FloydFlivercodgear" name="FloydFlivercod/frameworks_opt_FloydFlivercodgear" remote="FloydFlivercod" />
   <project path="hardware/interfaces" name="FloydFlivercod/hardware_interfaces" groups="pdk" remote="FloydFlivercod" />
-  <project path="packages/apps/FloydFlivercod_OTA" name="FloydFlivercod/packages_apps_FloydFlivercod_OTA" remote="FloydFlivercod" />
   <project path="packages/apps/FloydFlivercodExtras" name="FloydFlivercod/packages_apps_FloydFlivercodExtras" remote="FloydFlivercod" />
-  <project path="packages/apps/Dialer" name="FloydFlivercod/packages_apps_Dialer" remote="FloydFlivercod" />
   <project path="packages/apps/Settings" name="FloydFlivercod/packages_apps_Settings" remote="FloydFlivercod" groups="pdk-fs" />
-  <project path="packages/apps/SnapdragonCamera" name="FloydFlivercod/packages_apps_SnapdragonCamera" remote="FloydFlivercod" />
-  <project path="packages/overlays/FloydFlivercod" name="FloydFlivercod/packages_overlays_FloydFlivercod" remote="FloydFlivercod" />
-  <project path="packages/services/Telephony" name="FloydFlivercod/packages_services_Telephony" remote="FloydFlivercod" />
   <project path="system/core" name="FloydFlivercod/system_core" remote="FloydFlivercod" groups="pdk" />
   <project path="vendor/FloydFlivercod" name="FloydFlivercod/vendor_FloydFlivercod" remote="FloydFlivercod" />
 
