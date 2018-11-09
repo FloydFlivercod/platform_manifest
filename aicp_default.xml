@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aicp"
+  <remote  name="FloydFlivercod"
            fetch="https://github.com/"
-           review="gerrit.aicp-rom.com"
+           review="gerrit.FloydFlivercod-rom.com"
            revision="refs/heads/p9.0" />
 
   <remote  name="lineage"
@@ -34,9 +34,9 @@
   <remove-project name="vendor_gzosp" />
 
 
-  <!-- AICP repositories -->
-  <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" />
-  <project path="build/make" name="AICP/build" remote="aicp" groups="pdk" >
+  <!-- FloydFlivercod repositories -->
+  <project path="platform_manifest" name="FloydFlivercod/platform_manifest" remote="FloydFlivercod" />
+  <project path="build/make" name="FloydFlivercod/build" remote="FloydFlivercod" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -45,28 +45,28 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="AICP/build_soong"  remote="aicp" >
+  <project path="build/soong" name="FloydFlivercod/build_soong"  remote="FloydFlivercod" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="AICP/bionic" remote="aicp" />
-  <project path="device/aicp/sepolicy" name="AICP/device_aicp_sepolicy" remote="aicp" />
-  <project path="device/qcom/sepolicy" name="AICP/device_qcom_sepolicy" remote="aicp" />
-  <project path="device/qcom/sepolicy-legacy" name="AICP/device_qcom_sepolicy-legacy" remote="aicp" />
-  <project path="frameworks/av" name="AICP/frameworks_av" remote="aicp" groups="pdk" />
-  <project path="frameworks/base" name="AICP/frameworks_base" remote="aicp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="AICP/frameworks_native" remote="aicp" groups="pdk" />
-  <project path="frameworks/opt/aicpgear" name="AICP/frameworks_opt_aicpgear" remote="aicp" />
-  <project path="hardware/interfaces" name="AICP/hardware_interfaces" groups="pdk" remote="aicp" />
-  <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" />
-  <project path="packages/apps/AicpExtras" name="AICP/packages_apps_AicpExtras" remote="aicp" />
-  <project path="packages/apps/Dialer" name="AICP/packages_apps_Dialer" remote="aicp" />
-  <project path="packages/apps/Settings" name="AICP/packages_apps_Settings" remote="aicp" groups="pdk-fs" />
-  <project path="packages/apps/SnapdragonCamera" name="AICP/packages_apps_SnapdragonCamera" remote="aicp" />
-  <project path="packages/overlays/AICP" name="AICP/packages_overlays_AICP" remote="aicp" />
-  <project path="packages/services/Telephony" name="AICP/packages_services_Telephony" remote="aicp" />
-  <project path="system/core" name="AICP/system_core" remote="aicp" groups="pdk" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" />
+  <project path="bionic" name="FloydFlivercod/bionic" remote="FloydFlivercod" />
+  <project path="device/FloydFlivercod/sepolicy" name="FloydFlivercod/device_FloydFlivercod_sepolicy" remote="FloydFlivercod" />
+  <project path="device/qcom/sepolicy" name="FloydFlivercod/device_qcom_sepolicy" remote="FloydFlivercod" />
+  <project path="device/qcom/sepolicy-legacy" name="FloydFlivercod/device_qcom_sepolicy-legacy" remote="FloydFlivercod" />
+  <project path="frameworks/av" name="FloydFlivercod/frameworks_av" remote="FloydFlivercod" groups="pdk" />
+  <project path="frameworks/base" name="FloydFlivercod/frameworks_base" remote="FloydFlivercod" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="FloydFlivercod/frameworks_native" remote="FloydFlivercod" groups="pdk" />
+  <project path="frameworks/opt/FloydFlivercodgear" name="FloydFlivercod/frameworks_opt_FloydFlivercodgear" remote="FloydFlivercod" />
+  <project path="hardware/interfaces" name="FloydFlivercod/hardware_interfaces" groups="pdk" remote="FloydFlivercod" />
+  <project path="packages/apps/FloydFlivercod_OTA" name="FloydFlivercod/packages_apps_FloydFlivercod_OTA" remote="FloydFlivercod" />
+  <project path="packages/apps/FloydFlivercodExtras" name="FloydFlivercod/packages_apps_FloydFlivercodExtras" remote="FloydFlivercod" />
+  <project path="packages/apps/Dialer" name="FloydFlivercod/packages_apps_Dialer" remote="FloydFlivercod" />
+  <project path="packages/apps/Settings" name="FloydFlivercod/packages_apps_Settings" remote="FloydFlivercod" groups="pdk-fs" />
+  <project path="packages/apps/SnapdragonCamera" name="FloydFlivercod/packages_apps_SnapdragonCamera" remote="FloydFlivercod" />
+  <project path="packages/overlays/FloydFlivercod" name="FloydFlivercod/packages_overlays_FloydFlivercod" remote="FloydFlivercod" />
+  <project path="packages/services/Telephony" name="FloydFlivercod/packages_services_Telephony" remote="FloydFlivercod" />
+  <project path="system/core" name="FloydFlivercod/system_core" remote="FloydFlivercod" groups="pdk" />
+  <project path="vendor/FloydFlivercod" name="FloydFlivercod/vendor_FloydFlivercod" remote="FloydFlivercod" />
 
   <!-- Lineage repositories -->
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />

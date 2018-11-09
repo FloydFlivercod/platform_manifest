@@ -602,7 +602,7 @@
   <!-- CAF manifest -->
   <include name="caf_default.xml" />
 
-  <!-- AICP manifest -->
-  <include name="aicp_default.xml" />
+  <!-- FloydFlivercod manifest -->
+  <include name="FloydFlivercod_default.xml" />
 
 </manifest>
