@@ -1,6 +1,6 @@
 [Floyd Flivercod Bare Bones ROM](Based from GZOSP)
 ====================================
-
+SPECIAL THANKS to AICP Team!
 
 Download the Source
 ===================
