@@ -54,7 +54,6 @@
   <project path="frameworks/opt/FloydFlivercodgear" name="FloydFlivercod/frameworks_opt_FloydFlivercodgear" remote="FloydFlivercod" />
   <project path="hardware/interfaces" name="FloydFlivercod/hardware_interfaces" groups="pdk" remote="FloydFlivercod" />
   <project path="packages/apps/FloydFlivercodExtras" name="FloydFlivercod/packages_apps_FloydFlivercodExtras" remote="FloydFlivercod" />
-  <project path="packages/apps/Settings" name="FloydFlivercod/packages_apps_Settings" remote="FloydFlivercod" groups="pdk-fs" />
   <project path="system/core" name="FloydFlivercod/system_core" remote="FloydFlivercod" groups="pdk" />
   <project path="vendor/FloydFlivercod" name="FloydFlivercod/vendor_FloydFlivercod" remote="FloydFlivercod" />
 
